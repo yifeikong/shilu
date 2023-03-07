@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Knowbase",
+    "description": "knowbase by kongyifei",
+    "version": "1.0.0",
+
+    "background": {
+        "persistent": true,
+        "scripts": ["background.js"]
+    },
+
+    "icons": {
+        "128": "icon.png"
+    },
+
+    "permissions": [
+        "activeTab",
+        "<all_urls>",
+        "tabs",
+        "webRequest"
+    ]
+}
